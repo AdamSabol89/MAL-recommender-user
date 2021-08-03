@@ -20,7 +20,22 @@
 - Created two dataframes from scraped data, one based on user information, the second based on anime entry information.
 - Filtered entries to only include those of media type "Special", "TV", and "Movie." 
 - Removed duplicate user entries from scraping process. 
-- Cleaned string information for anime studio entries. 
+- Cleaned string information for anime studio column. 
 - Grouped low count studios and low count anime-num-episodes into "other" category.
 
 ### [Exploratory Data Analysis](https://github.com/AdamSabol89/MAL-recommender-user/blob/master/MAL_Recommender_Data_exploration.ipynb)
+- Did basic exploratory analysis on user information such as scores/consumption_status. 
+- Full results are stated in the notebook linked above, provided below are some examples from the analysis. 
+<p align="center">
+  <img src="https://github.com/AdamSabol89/MAL-recommender-user/blob/master/figures/mean_count_plot_scores.png">
+</p>
+<p align="center">
+  <img src="https://github.com/AdamSabol89/MAL-recommender-user/blob/master/figures/mean_user_score.png">
+</p>
+<p align="center">
+  <img src="https://github.com/AdamSabol89/MAL-recommender-user/blob/master/figures/ratio_dropped.png">
+</p>
+
+### Data Pre-Processing for Model Building 
+- 
+
