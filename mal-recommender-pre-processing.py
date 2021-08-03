@@ -31,7 +31,6 @@ user_data_df["consumption_status"].value_counts()
 #remove duplicates from scraping process
 user_data_df.drop_duplicates(inplace=True)
 
-user_data_df.duplicated()
 #Get anime features
 feature_data  = mal_consuming[['name','anime_num_episodes','anime_airing_status','anime_studios','anime_media_type_string','anime_mpaa_rating_string']]
 feature_data.drop_duplicates(subset = "name", inplace=True)
