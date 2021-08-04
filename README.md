@@ -46,4 +46,10 @@
 - Sent all dataframes to scipy sparse matrices and saved list of anime titles. 
 
 ### [Model Building](https://github.com/AdamSabol89/MAL-recommender-user/blob/master/MAL_Recommender_Modeling_Notebook.ipynb) 
-
+- Used LightFM package to model user recommendations based on BPR, WARP, and Logistic loss functions. 
+- Evaluated using in-built LightFM metrics, precision@k and AUC. 
+- Full results as well as an explanation of the model and evaluation metrics is provided in the workbook linked above. 
+### Flask Website and Model Deployment
+- Created a data pipeline which takes in a username and outputs a set of predictions based on user anime list. 
+- Created a simple HTML website with bootstrap, including a user input function. 
+- Pushed website to heroku using gunicorn. 
