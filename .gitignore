@@ -2,3 +2,4 @@ item_data
 user_data 
 AnimeData
 Flask
+MAL_recommender_modeling.py
